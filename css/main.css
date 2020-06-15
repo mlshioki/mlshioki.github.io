@@ -1,0 +1,326 @@
+:root{
+    --yellow: #f4f23c;
+    --darkyellow: #BAA60C;
+    --black: #071013;
+    --white: #fff;
+    --grey: #707070;
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+  border: none;
+}
+*{
+  font-family: 'Roboto Mono', monospace;
+}
+
+#logo{
+  width: 100px;
+}
+.nav-color{
+    position: fixed;
+}
+
+.bg-black{
+    background-color: var(--black) !important;
+}
+
+.bg-yellow{
+  background-color: var(--yellow) !important;
+}
+
+.c-darkyellow{
+  color: var(--darkyellow);
+}
+
+.nav-link{
+    text-decoration: none;
+}
+
+.navbar-toggler{
+    /*tirar a borda azul qnd clica*/
+    outline: none !important;
+    /*tirar a borda*/
+    border: none;
+    color: var(--yellow) !important;
+}
+
+a:link{
+    text-decoration:none;
+    color: var(--yellow);
+}
+    
+a:hover{
+    text-decoration:none;
+    color: var(--white);
+}
+    
+a:visited{
+text-decoration:none;
+color:var(--yellow);
+}
+
+.active{
+    border-bottom: 1px solid var(--grey);
+}
+
+.carousel-item{
+  border: none !important;
+}
+
+.carousel-indicators > li{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+.bg-primary{
+  background-color: var(--yellow) !important;
+}    
+
+/*Imagem da tela UScene*/
+.uscene-banner{
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 15px;
+}
+
+/*Título da tela UScene*/
+.uscene-title{
+  font-family: 'Bungee', cursive;
+  position: absolute;
+  top: 100px;
+  left: 40px;
+  font-size: 90px;
+  color: var(--darkyellow);
+  text-shadow: black 0.1em 0.1em 0.5em;
+}
+
+/*Texto da tela Uscene*/
+.uscene-text{
+  position: absolute;
+  top: 225px;
+  left: 40px;
+  right: 750px;
+  font-size:20px;
+  color: var(--white);
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+/*Tela UScene quando a largura for menor que 1064px*/
+@media (max-width: 1064px){
+    .uscene-title{
+        position: absolute;
+        top: 60px;
+        left: 30px;
+        font-size: 65px;
+        color: var(--darkyellow);
+      }
+      
+      .uscene-text{
+        position: absolute;
+        top: 140px;
+        left: 30px;
+        right: 450px;
+        font-size:16px;
+        color: var(--white);
+      
+      }
+}
+/*Tela UScene quando a largura for menor que 805px*/
+@media (max-width: 805px){
+    .uscene-title{
+        position: absolute;
+        top: 20px;
+        left: 35px;
+        font-size: 40px;
+        color: var(--darkyellow);
+      }
+      
+      .uscene-text{
+        position: absolute;
+        top: 90px;
+        left: 35px;
+        right: 300px;
+        font-size:15px;
+        color: var(--white);
+      
+      }
+}
+@media (max-width:600px){ 
+      .uscene-text{
+        position: absolute;
+        top: 65px;
+        left: 25px;
+        right: 250px;
+        font-size:15px;
+        color: var(--white);
+      }
+}
+/*Tela UScene quando a largura for menor que 572px*/
+@media (max-width: 572px){
+      .uscene-title{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        font-size: 32px;
+        color: var(--darkyellow);
+      }
+      
+      .uscene-text{
+        position: absolute;
+        top: 65px;
+        left: 25px;
+        right: 250px;
+        font-size:13px;
+        color: var(--white);
+      
+      }
+}
+
+@media (max-width:500px){ 
+     .uscene-title{
+        position: absolute;
+        top: 20px;
+        left: 25px;
+        font-size: 28px;
+        color: var(--darkyellow);
+      }
+      .uscene-text{
+        position: absolute;
+        top: 53px;
+        left: 25px;
+        right: 250px;
+        font-size:13px;
+        color: var(--white);
+      }
+}
+
+
+.artistas-title{
+  font-family: 'Bungee', cursive;
+  font-size: 70px;
+
+}
+/*@media only screen and (max-width: 768px) {
+ .artistas-title {
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 600px) {
+ .artistas-title {
+    font-size: 35px;
+  }
+}*/
+.artistas-top{
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+
+.artistas-btn{
+  background-color: var(--yellow);
+  color: var(--black) !important;
+  width: 300px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: none;
+  border-radius: 0px;
+  box-shadow: none !important;
+}
+.btn-primary:focus{
+  color: white !important;
+  background-color: var(--black);
+  border-color: var(--black);
+  
+}
+
+.btn-primary{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.artistas-btn:hover{
+  color: var(--yellow) !important;
+  background-color: var(--black) !important;
+  transition: all 0.4s;
+}
+
+.lista{
+  list-style: none !important;
+  text-decoration: none;
+}
+
+.card-body{
+  border: none !important;
+  background-color: transparent;
+}
+
+.g-artista{
+  width: 10%;
+}
+
+/*galeria flex*/
+#flex{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+.galeria img:hover{
+  transform: scale(1.1);
+  transition: all 0.4s;
+}
+
+
+/*footer*/
+i{
+  width: 5rem;
+}
+
+.festival-title{
+  font-family: 'Bungee', cursive;
+  font-size: 60px;
+}
+
+.festival-text{
+  color: var(--yellow);
+}
+
+.fab{
+  color: var(--black) !important;
+  }
+
+i:hover{
+  color: rgb(136, 136, 136) !important;
+  transition: all 0.4s;
+ 
+
+}
