@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript" src="./js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/8455a3d02b.js" crossorigin="anonymous"></script>  
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <title>UScene Produções</title>
+</head>
+<body data-spy="scroll" data-target=".navbar">
+    <header>
+        <nav class="navbar nav-color fixed-top navbar-expand-sm">
+            <a href="index.html" class="navbar-brand logo">
+                <img src="./img/LOGO.png" id="logo" class="pl-2">  
+                <h1 class="d-none">UScene</h1>
+            </a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#myNavBar">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div id="myNavBar" class="collapse navbar-collapse">
+                <ul class="navbar-nav mx-auto list-unstyled">
+                    <li class="nav-item list-unstyled list-inline-item ">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item list-u
+                    nstyled list-inline-item">
+                        <a class="nav-link"  href="#uscene">Uscene</a>
+                    </li>
+                    <li class="nav-item list-unstyled list-inline-item">
+                        <a class="nav-link"  href="#artistas">Artistas</a>
+                    </li>
+                    <li class="nav-item list-unstyled list-inline-item">
+                        <a class="nav-link"  href="#eventos">Eventos</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="banner d-flex align-items-center">
+            <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./banner-images/BANNER1.jpg" class="d-block w-100">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./banner-images/BANNER2.jpg" class="d-block w-100">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./banner-images/BANNER3.jpg" class="d-block w-100">
+                  </div>
+        </section>
+        <section id="uscene" class="bg-primary">
+          <div class="col-12 uscene-banner position-relative">
+            <img src="./img/uscene-bg.jpg" class="d-block w-100">
+            <h2 class="col-10 col-md-6 uscene-title">A Uscene</h2>
+            <div class="col-10 col-md-6 uscene-text">
+              <p>Este é um projeto criado para promover e organizar eventos culturais, conversar sobre filmes, séries, desenhos, livros e muito mais! Tudo aquilo que a gente ama! </p>
+              <p>A UScene é mais do que uma produtora que vai dar visão especial, nosso objetivo é divulgar a arte. Independente de tudo! Seja arte, vem pra Uscene!</p>
+            </div>
+          </div>
+        </section>
+        <section class="container-fluid bg-black" id="artistas">
+         <div class="row">
+               <div class="row">
+                <div class="col-12 mx-auto ">
+                    <h2 class="artistas-title d-flex justify-content-center c-darkyellow mt-5 pt-4">Artistas</h2>
+                </div>
+                <div class="col-10 mx-auto pt-2 pb-3">
+                    <p class="align-items-center text-center text-muted">Esses são os agenciados da UScene, artistas
+                        incríveis que vão de covers impersonator à cantores profissionais, todos apaixonados pela sua arte e empenhados em levar suas performances ao mundo!</p>
+                </div>
+            </div>
+          </div>
+         <div class="row ml-2">
+            <div class="col-sm-6 col-md-6 col-lg-3 mb-4 text-center">
+                    <img src="/img/DINAHJANE.jpg" class="tamanho img-fluid">
+                    <a class="btn btn-primary artistas-btn" data-toggle="collapse" href="#exemplo">
+                        Ver mais
+                    </a>
+                    <div class="collapse mt-2" id="exemplo">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3 class="card-title">Dinah Jane Cover</h3>
+                                <ul class="list-group">
+                                    <li class="list-group-item">Agenciado desde: 2019</li>
+                                    <li class="list-group-item">Categoria: Cover</li>
+                                    <li class="list-group-item"><a class="bnt"
+                                            href="https://www.instagram.com/dinahjanecover/"><i class="fab fa-instagram"
+                                                id="social"></i></li></a>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3 mb-4 text-center">
+                    <img src="/img/CAMILACABELLO.jpg" class="tamanho img-fluid">
+                    <a class="btn btn-primary artistas-btn" data-toggle="collapse" href="#exemplo2">
+                        Ver mais
+                    </a>
+                    <div class="collapse mt-2" id="exemplo2">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3 class="card-title">Camila Cabello Cover</h3>
+                                <ul class="list-group">
+                                    <li class="list-group-item">Agenciado desde: 2019</li>
+                                    <li class="list-group-item">Categoria: Cover</li>
+                                    <li class="list-group-item"><a class="bnt"
+                                            href="https://www.instagram.com/camila_cabellocoversp/"><i
+                                                class="fab fa-instagram" id="social"></i></li></a>
+                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3 mb-4 text-center">
+                    <img src="/img/LMBOYS.jpg" class="tamanho img-fluid">
+                    <a class="btn btn-primary artistas-btn" data-toggle="collapse" href="#exemplo3">
+                        Ver mais
+                    </a>
+                    <div class="collapse mt-2" id="exemplo3">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3 class="card-title">Little Mix Boys Cover</h3>
+                                <ul class="list-group">
+                                    <li class="list-group-item">Agenciado desde: 2020</li>
+                                    <li class="list-group-item">Categoria: Cover invertido</li>
+                                    <li class="list-group-item"><a class="bnt"
+                                            href="https://www.instagram.com/littlemixboyscover/"><i
+                                                class="fab fa-instagram" id="social"></i></li></a>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3 mb-4 text-center">
+                    <img src="/img/DEMILOVATO.jpg" class="tamanho img-fluid">
+                    <a class="btn btn-primary artistas-btn" data-toggle="collapse" href="#exemplo4">
+                        Ver mais
+                    </a>
+                    <div class="collapse mt-2" id="exemplo4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3 class="card-title">Demi Lovato Cover</h3>
+                                <ul class="list-group">
+                                    <li class="list-group-item">Agenciado desde: 2019</li>
+                                    <li class="list-group-item">Categoria: Cover</li>
+                                    <li class="list-group-item"><a class="bnt"
+                                            href="https://www.instagram.com/centralmontsvatofficial/"><i
+                                                class="fab fa-instagram" id="social"></i></li></a>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3 mb-4 text-center">
+                    <img src="/img/IZA.jpg" class="tamanho img-fluid">
+                    <a class="btn btn-primary artistas-btn" data-toggle="collapse" href="#exemplo5">
+                        Ver mais
+                    </a>
+                    <div class="collapse mt-2" id="exemplo5">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3 class="card-title">Iza Cover</h3>
+                                <ul class="list-group">
+                                    <li class="list-group-item">Agenciado desde: 2019</li>
+                                    <li class="list-group-item">Categoria: Cover</li>
+                                    <li class="list-group-item"><a class="bnt"
+                                            href="https://www.instagram.com/izacoveroficial_/"><i
+                                                class="fab fa-instagram" id="social"></i></li></a>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3 mb-4 text-center">
+                    <img src="/img/GOMEZ.jpg" class="tamanho img-fluid">
+                    <a class="btn btn-primary artistas-btn" data-toggle="collapse" href="#exemplo6">
+                        Ver mais
+                    </a>
+                    <div class="collapse mt-2" id="exemplo6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3 class="card-title">Gomez</h3>
+                                <ul class="list-group">
+                                    <li class="list-group-item">Agenciado desde: 2020</li>
+                                    <li class="list-group-item">Categoria: Drag / Performer / Cantora</li>
+                                    <li class="list-group-item"><a class="bnt"
+                                            href="https://www.instagram.com/gomez.jpeg/"><i class="fab fa-instagram"
+                                                id="social"></i></li></a>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3 mb-4 text-center">
+                    <img src="/img/warriors2.jpg" class="tamanho img-fluid">
+                    <a class="btn btn-primary artistas-btn" data-toggle="collapse" href="#exemplo7">
+                        Ver mais
+                    </a>
+                    <div class="collapse mt-2" id="exemplo7">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3 class="card-title">Warriors Crew</h3>
+                                <ul class="list-group">
+                                    <li class="list-group-item">Agenciado desde: 2020</li>
+                                    <li class="list-group-item">Categoria: Grupo de Dança</li>
+                                    <li class="list-group-item"><a class="bnt"
+                                            href="https://www.instagram.com/warriors.cw/"><i class="fab fa-instagram"
+                                                id="social"></i></li></a>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3 mb-4 text-center">
+                    <img src="/img/MILEYCYRUS.jpg" class="tamanho img-fluid">
+                    <a class="btn btn-primary artistas-btn" data-toggle="collapse" href="#exemplo8">
+                        Ver mais
+                    </a>
+                    <div class="collapse mt-2" id="exemplo8">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3 class="card-title">Miley Cyrus Cover</h3>
+                                <ul class="list-group">
+                                    <li class="list-group-item">Agenciado desde: 2020</li>
+                                    <li class="list-group-item">Categoria: Cover</li>
+                                    <li class="list-group-item"><a class="bnt"
+                                            href="https://www.instagram.com/mileycyruscoverr/"><i class="fab fa-instagram"
+                                                id="social"></i></li></a>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+         </div>
+        </section>
+        <section class="container-fluid bg-black pb-3" id="eventos">
+            <div class="row pt-5">
+                <div class="col-12 d-flex justify-content-center">
+                    <h2 class="text-center festival-title pt-4 pb-1 c-darkyellow">The Uscene Festival</h2>
+                    <i class="fas fa-angle-down d-flex align-items-center btn c-darkyellow" data-toggle="collapse" href="#festival"></i>
+                </div>
+                <div class="col-12 d-flex">
+                    <div class="collapse pt-1 pb-2" id="festival">
+                        <div class="card card-body festival-text text-center">
+                            É um evento voltado para talentos de todos os gêneros, para que eles possam se apresentar e mostrar seu trabalho. #TodosPelaArte é nosso movimento!
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="flex">
+                <div class="column galeria" id="flex">
+                    <img src="./festival-images/FESTIVAL1.jpg">
+                    <img src="./festival-images/FESTIVAL2.jpg">
+                </div>
+                <div class="column galeria" id="flex">
+                    <img src="./festival-images/FESTIVAL3.jpg">
+                    <img src="./festival-images/FESTIVAL4.jpg">
+                </div>
+                <div class="column galeria" id="flex">
+                    <img src="./festival-images/FESTIVAL5.jpg">
+                    <img src="./festival-images/FESTIVAL6.jpg">
+                </div>
+                <div class="column galeria" id="flex">
+                    <img src="./festival-images/FESTIVAL7.jpg">
+                    <img src="./festival-images/FESTIVAL8.jpg">
+                </div>
+            </div>
+        </section>
+    </main>
+   <footer class="container-fluid bg-yellow">
+        <div class="row pt-3">
+            <div class=" col-12 text-center mb-3">
+                <a href="https://www.instagram.com/usceneofc/"><i class="fab fa-instagram mr-2 " id="social"></i></a>
+                <a href="https://twitter.com/usceneofc"><i class="fab fa-twitter mr-2"></i></a>
+                <a href="https://m.facebook.com/uscenetv/"><i class="fab fa-facebook-f mr-2" id="social"></i></a>
+                <a href="https://m.youtube.com/channel/UC1kyzj2tRSpN1DVYTvietfQ"><i class="fab fa-youtube mr-2" id="social"></i></a>
+                
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
